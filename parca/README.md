@@ -4,7 +4,7 @@ Continuous profiling for analysis of CPU, memory usage over time, and down to th
 
 ## Updating the application
 
-As part of every Parca release there is a [kubernetes-manifest.yaml](https://github.com/parca-dev/parca/releases/download/v0.4.1/kubernetes-manifest.yaml) that is stored as parca.yaml. Then for the agent the same [kubernetes-manifest.yaml](https://github.com/parca-dev/parca-agent/releases/download/v0.2.0/kubernetes-manifest.yaml) is available stoerd as parca-agent.yaml.
+As part of every Parca release there is a [kubernetes-manifest.yaml](https://github.com/parca-dev/parca/releases/download/v0.4.1/kubernetes-manifest.yaml) that is stored as parca.yaml. Then for the agent the same [kubernetes-manifest.yaml](https://github.com/parca-dev/parca-agent/releases/download/v0.2.0/kubernetes-manifest.yaml) is available stored as parca-agent.yaml.
 To combine both we run
 ```
 cat parca.yaml > app.yaml
